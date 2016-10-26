@@ -1,0 +1,13 @@
+﻿<Window xmlns:se="clr-namespace:Tomers.WPF.MVVM.ShapeEditor"
+        x:Class="Tomers.WPF.MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <se:ShapeEditorView>
+            <se:ShapeEditorView.DataContext>
+                <se:ShapeEditorViewModel />
+            </se:ShapeEditorView.DataContext>
+        </se:ShapeEditorView>
+    </Grid>
+</Window>
